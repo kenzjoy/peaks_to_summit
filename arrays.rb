@@ -14,3 +14,7 @@ distance_between_peaks.shift
 
  # the unshift function will add new objects to the front of an array, moving the existing elements upwards in the index position.
 peaks_summited.unshift (false, true)
+
+# the slice! function will remove the elements given by an index position, and will return the deleted objects.
+# in this case, "Golden Horn" will be removed from the array and will be returned on the output.
+peaks_to_summit.slice! (1)
